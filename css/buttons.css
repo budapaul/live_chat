@@ -51,20 +51,22 @@ a.button:active, button:active {
     top: 1px 
 }
 a.button.left, button.left { 
-    margin-right: 0px; border-right: none;
+    margin-right: 0px; 
+    border-right: none;
 }
 a.button.middle, button.middle { 
     margin-right: 0px; 
     margin-left: 0px; 
     border-radius: 0px; 
-    border-right: none; }
-    a.button.right, button.right { 
-        margin-left: 0px; 
-    }
-    a.button.left:active, button.left:active,
-    a.button.middle:active, button.middle:active,
-    a.button.right:active, button.right:active {
-        top: 0px 
-    }
+    border-right: none; 
+}
+a.button.right, button.right { 
+    margin-left: 0px; 
+}
+a.button.left:active, button.left:active,
+a.button.middle:active, button.middle:active,
+a.button.right:active, button.right:active {
+    top: 0px 
+}
 
 
