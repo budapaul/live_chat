@@ -1,51 +1,53 @@
 .fieldset{
-	width: 400px;
-	height: 400px;
+    width: 400px;
+    height: 400px;
 }
 .legend{
-	position: relative;
-       }
-	.mesaj { 
-		margin-top: 30px;
-		
-		border-color: red;
-	}
-	.submit{
+    position: relative;
+}
+.mesaj { 
+    margin-top: 30px;
+    
+    border-color: red;
+}
+.submit{
 
-		margin-top: -150px;
+    margin-top: -150px;
 
-	}
-	.p{ margin-bottom:}
-	.fieldset ul {
+}
+.p{ 
+    margin-bottom:
+}
+.fieldset ul {
 
-		list-style: none;
-	}
+    list-style: none;
+}
 
-	.section {
-		float:left;
-		height:100%;
-	}
-	.section-right{position: relative;
-		left:30px;
-		width:40%;
+.section {
+    float:left;
+    height:100%;
+}
+.section-right{position: relative;
+    left:30px;
+    width:40%;
 
-	}
-	.section-left{
-		width:60%;
-	}
-	.poza {
-		position:relative;
-		top: 20px;
-	}
-	.pnume{ position: relative;
-		top:30px;	
-	}
-	.mail{position: relative;
+}
+.section-left{
+    width:60%;
+}
+.poza {
+    position:relative;
+    top: 20px;
+}
+.pnume{ position: relative;
+    top:30px;   
+}
+.mail{position: relative;
 
-		top: 40px;
-	}
-	.button_submit{
-		position: relative;
-		left: 30px;
-		bottom:10px;
-	}
+    top: 40px;
+}
+.button_submit{
+    position: relative;
+    left: 30px;
+    bottom:10px;
+}

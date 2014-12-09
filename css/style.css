@@ -114,11 +114,6 @@ a {
   margin-top:30px; 
 } 
 
-
-
-
-
-
 .button_submit {
   position: relative;
   left: 250px;
@@ -132,4 +127,4 @@ a {
   background-color:rgb(41,127,184);
   color:rgb(255,255,255);
   letter-spacing: 1px;
-   }
+}
