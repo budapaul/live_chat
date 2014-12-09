@@ -1,0 +1,87 @@
+.fieldset{ 
+	width: 400px;
+	height:500px; 
+	margin-top: 20px;
+
+}
+.stanga{
+	float: left;
+	width: 30%;
+	margin-left:40px;	
+}
+.dreapta{
+	float:right;
+	width: 40%;
+	height:100%;
+	position: relative;
+	right: 290px 
+}
+.poza{ 
+	height: 140px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}    
+.chat{text-align: left;
+		margin-left: 20px;
+		color: red;	} 
+
+.p{
+    text-align:left;
+    margin-left: 100px;
+     
+	 }		 
+	 .aligncenter{
+	 	text-align: center;
+	 }
+	 .butoane{
+	 	position: relative;
+	 	
+	 	top: 30px;
+
+
+
+	 }
+	 .section {
+		float:left;
+		height:60%;
+	}
+	.section-right{
+		width:40%;
+
+	}
+	.section-left{
+		width:60%;
+	}
+	.submit{position: relative;
+		border:2px solid darkblue;
+		bottom: 10px;
+		left: 20px;
+		border
+	}
+	.textarea{
+		position: relative;
+		top: 60px
+	}
+	.section_butoane{
+		margin-top:30px;
+	}
+
+.button_submit {
+	position: relative;
+	left: 250px;
+	bottom: 40 px;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  padding-right: 20px;
+  padding-left: 10px;
+  position: relative;
+  background-color:rgb(41,127,184);
+  color:rgb(255,255,255);
+  letter-spacing: 1px;
+   }
+
+
+
+
