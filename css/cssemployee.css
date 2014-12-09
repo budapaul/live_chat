@@ -35,11 +35,11 @@
 .section-left{
     width:60%;
 }
-.poza {
+.employee_photo {
     position:relative;
     top: 20px;
 }
-.pnume{ position: relative;
+.employee_name{ position: relative;
     top:30px;   
 }
 .mail{position: relative;

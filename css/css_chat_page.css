@@ -9,7 +9,7 @@
     width: 30%;
     margin-left:40px;   
 }
-.dreapta{
+.align-right{
     float:right;
     width: 40%;
     height:100%;
@@ -28,7 +28,7 @@
     color: red; 
 } 
 
-.p{
+.paragraph{
     text-align:left;
     margin-left: 100px;
     
@@ -66,7 +66,7 @@
     position: relative;
     top: 60px
 }
-.section_butoane{
+.section_buttons{
     margin-top:30px;
 }
 
