@@ -20,25 +20,7 @@ a.button, button {
     *vertical-align: middle; 
     top:20px; 
 }
-button { 
-    margin-left: 0; 
-    margin-right: 0; 
-    *padding: 5px 5px 3px 5px;
-}
 
-
-a.button.primary, button.primary { 
-    font-weight: bold 
-}
-button:focus,a.button:hover, 
-button:hover { 
-    color: #FFFFFF; 
-    border-color: #388AD4; 
-    text-decoration: none; 
-    text-shadow: -1px -1px 0 rgba(0,0,0,0.3); 
-    background-position: 0 -40px;
-    background-color: #2D7DC5; 
-}
 a.button:active, button:active,
 a.button.active, button.active { 
     background-position: 0 -81px;
