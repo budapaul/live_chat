@@ -3,7 +3,7 @@
     height:500px; 
     margin-top: 20px;
 }
-.stanga{
+.align-left{
     float: left;
     width: 30%;
     margin-left:40px;   
@@ -15,7 +15,7 @@
     position: relative;
     right: 290px 
 }
-.poza{ 
+.user_photo{ 
     height: 140px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -33,10 +33,7 @@
 .aligncenter{
     text-align: center;
 }
-.butoane{
-    position: relative;
-    top: 30px;
-}
+
 .section {
     float:left;
     height:60%;
