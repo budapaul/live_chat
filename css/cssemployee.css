@@ -7,19 +7,15 @@
 }
 .mesaj { 
     margin-top: 30px;
-    
     border-color: red;
 }
 .submit{
-
     margin-top: -150px;
-
 }
 .p{ 
     margin-bottom:
 }
 .fieldset ul {
-
     list-style: none;
 }
 
@@ -27,7 +23,8 @@
     float:left;
     height:100%;
 }
-.section-right{position: relative;
+.section-right{
+    position: relative;
     left:30px;
     width:40%;
 
@@ -39,11 +36,12 @@
     position:relative;
     top: 20px;
 }
-.employee_name{ position: relative;
+.employee_name{ 
+    position: relative;
     top:30px;   
 }
-.mail{position: relative;
-
+.mail{
+    position: relative;
     top: 40px;
 }
 .button_submit{

@@ -51,7 +51,6 @@ a.button:active, button:active {
     top: 1px 
 }
 a.button.left, button.left { 
-    
     margin-right: 0px; border-right: none;
 }
 a.button.middle, button.middle { 
@@ -60,7 +59,6 @@ a.button.middle, button.middle {
     border-radius: 0px; 
     border-right: none; }
     a.button.right, button.right { 
-        
         margin-left: 0px; 
     }
     a.button.left:active, button.left:active,
