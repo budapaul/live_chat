@@ -1,13 +1,14 @@
 
 String.prototype.capitalize = function(){
   var new_str = this.trim();
-  return new_str.charAt(0).toUpperCase() + new_str.slice(1).toLowerCase();
+  return new_str.charAt(0).toUpperCase() + new_str.slice(1).toLowerCase();;
 }
 
 console.log("   My name is Eric  ".capitalize());
 
 String.prototype.humanize = function(){
-  var new_str = this.replace(/[-_ ]+/g, ' ').trim()
+  //this method replace all the caracter with a space after it make trim().
+  var new_str = this.replace(/[-_ ]+/g, ' ').trim();
   return new_str.charAt(0).toUpperCase() + 
   new_str.slice(1).toLowerCase().replace(/[-_]+/g, ' ')
 };
@@ -31,3 +32,4 @@ String.prototype.tableize=function(){
 }
 
 console.log("!@#$%^My name is Eric".tableize())
+

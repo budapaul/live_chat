@@ -85,6 +85,9 @@ a {
  background-position:top left;
  background-repeat:no-repeat;
 }
+input, select {
+ display: block;
+}
 
 #topnav .active {
  background-image:url('../images/tab.png');
@@ -93,19 +96,21 @@ a {
  background-repeat:no-repeat;
 }
 .menu{
-  margin-right: 1500px;
+  position: relative;
+  top:50px;
   margin-bottom: 30px;
 
 }
 .menu2{
-  margin-right:1505px;
+  position: relative;
+  bottom :30px;
+  
 }
 .select{
-  margin-right:1599px;
   margin-top:30px; 
 }
 .submit{
-  margin-top:30px; 
+ margin-top: 30px; 
 } 
 
 .button_submit {
@@ -121,4 +126,13 @@ a {
   background-color:rgb(41,127,184);
   color:rgb(255,255,255);
   letter-spacing: 1px;
+}
+#uservalid{
+  position: relative;
+  bottom: 50px;
+}
+#emailvalid{
+  position: relative;
+  bottom:50px;
+
 }
