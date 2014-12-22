@@ -6,6 +6,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print, projection" />
     <link rel="stylesheet" type="text/css" href="css/css_chat_page.css" media="screen, print, projection" />
     <link rel="stylesheet" type="text/css" href="css/buttons.css" media="screen, print, projection" />
+    <script type="text/javascript" src="js/string.js"></script>
+    <script type="text/javascript" src="js/shared_chat.js"></script>
   </head>
   <body>
     <div id="header">
@@ -22,11 +24,15 @@
       <fieldset class="fieldset">
         <legend class="chat">chat</legend>
       </fieldset>
-      <textarea placeholder="Your message here"rows="4" cols="25" class="textarea"> </textarea>
+      <form  action="#" method="post" class="chat_form">
+       <span id="user_chat_error" style="display:none;"></span>
+      <textarea placeholder="Your message here"rows="4" cols="25" id="textarea" class='textarea'> </textarea>
       <div class="container">
-        <a href="#" class="button_submit " id="Send" >Send</a>
+    <input type="submit" value="Send" class="button_submit " id="sendchatpage" />
       </div>
+      </form>
     </div>
+    
     <div class="align-right">
       <div class="aligncenter">
         <p><b><h2>Evaluate work of our employee</h2></b></p>

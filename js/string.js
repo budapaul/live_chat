@@ -37,7 +37,7 @@ String.prototype.tableize = function()
 
 console.log("!@#$%^My name is Eric".tableize())
 
-String.prototype.hide_error = function(id, message)
+String.prototype.hide_error = function(id)
 {
   span = document.getElementById(id);
   span.style.display = "none";

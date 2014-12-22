@@ -18,7 +18,7 @@ a.button, button {
   line-height: 1.11;
   *display: inline;
   *vertical-align: middle;
-  top: 20px;
+   margin-top: 20px;
 }
 a.button:active, button:active, a.button.active, button.active {
   background-position: 0 -81px;
@@ -29,6 +29,11 @@ a.button:active, button:active, a.button.active, button.active {
 }
 a.button:active, button:active {
   top: 1px
+}
+a.button:hover {
+  background: none;
+  background-color: #ffff99;
+  color: red;
 }
 a.button.left, button.left {
   margin-right: 0px;
