@@ -1,51 +1,52 @@
-.fieldset{
-    width: 400px;
-    height: 400px;
+.fieldset {
+  width: 400px;
+  height: 400px;
 }
-.legend{
-    position: relative;
+.legend {
+  position: relative;
 }
-.mesaj { 
-    margin-top: 30px;
-    border-color: red;
+.mesaj {
+  margin-top: 30px;
+  border-color: red;
 }
-.submit{
-    margin-top: -150px;
+.submit {
+  margin-top: -150px;
 }
-.p{ 
-    margin-bottom:
+.p {
+  margin-bottom:
 }
 .fieldset ul {
-    list-style: none;
+  list-style: none;
 }
-
 .section {
-    float:left;
-    height:100%;
+  float: left;
+  height: 100%;
 }
-.section-right{
-    position: relative;
-    left:30px;
-    width:40%;
-
+.section-right {
+  position: relative;
+  left: 30px;
+  width: 40%;
 }
-.section-left{
-    width:60%;
+.section-left {
+  width: 60%;
 }
 .employee_photo {
-    position:relative;
-    top: 20px;
+  position: relative;
+  top: 20px;
 }
-.employee_name{ 
-    position: relative;
-    top:30px;   
+.employee_name {
+  position: relative;
+  top: 30px;
 }
-.mail{
-    position: relative;
-    top: 40px;
+.mail {
+  position: relative;
+  top: 40px;
 }
-.button_submit{
-    position: relative;
-    left: 30px;
-    bottom:10px;
+.button_submit {
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+}
+#textarea1 {
+  display: block;
 }

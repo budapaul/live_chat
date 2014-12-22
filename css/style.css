@@ -2,117 +2,103 @@
 /***Misc Tags***/
 
 * {
- margin: 0px;
- padding: 0px;
-}
 
+  margin: 0px;
+
+  padding: 0px;
+}
 body {
- background: #fff url('../images/bodybg.png') repeat-x;
- font-family: Verdana, Arial, sans-serif;
- font-size: 16px;
- color: #000;
+  background: #fff url('../images/bodybg.png') repeat-x;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
 }
-
-a img{
- border: 0px;
+a img {
+  border: 0px;
 }
-
 a {
   text-decoration: none;
 }
-
 .hidden {
- text-indent: -9000px;
- background: inherit;
+  text-indent: -9000px;
+  background: inherit;
 }
-
 /***Header/logo tags***/
 
 #header {
- width: 850px;
- margin: 0 auto;
- height: 180px;
- border-top: 1px solid #000;
+  width: 850px;
+  margin: 0 auto;
+  height: 180px;
+  border-top: 1px solid #000;
 }
-
 #logo {
- float: left;
- margin-left: 10px;
- margin-top: 10px;
- width: 250px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 250px;
 }
-
-#logo h1,#logo h2 {
-  font-weight:400;
-  letter-spacing:-2px;
+#logo h1, #logo h2 {
+  font-weight: 400;
+  letter-spacing: -2px;
 }
-
 #logo h1 {
-  font-size:2.4em;
-  padding-top:10px;
+  font-size: 2.4em;
+  padding-top: 10px;
   color: #F58220;
 }
-
 #logo h2 {
-  font-size:1.3em;
+  font-size: 1.3em;
   color: #a0a0a0;
 }
-
 #topnav {
- margin-top:105px;
- margin-left: 300px
+  margin-top: 105px;
+  margin-left: 300px
 }
-
-#topnav a{
- display: block;
- float: left;
- text-align: center;
- width: 95px;
- height: 35px;
- line-height: 35px;
- text-decoration: none;
- color: #a0a0a0;
- text-transform: uppercase;
- font-size: 0.7em;
- background-image:url('../images/tab.png');
- background-position:bottom left;
- background-repeat:no-repeat;
+#topnav a {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 95px;
+  height: 35px;
+  line-height: 35px;
+  text-decoration: none;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  background-image: url('../images/tab.png');
+  background-position: bottom left;
+  background-repeat: no-repeat;
 }
-
 #topnav a:hover {
- background-image:url('../images/tab.png');
- color: #000;
- background-position:top left;
- background-repeat:no-repeat;
+  background-image: url('../images/tab.png');
+  color: #000;
+  background-position: top left;
+  background-repeat: no-repeat;
 }
 input, select {
- display: block;
+  display: block;
 }
-
 #topnav .active {
- background-image:url('../images/tab.png');
- color: #000;
- background-position:top left;
- background-repeat:no-repeat;
+  background-image: url('../images/tab.png');
+  color: #000;
+  background-position: top left;
+  background-repeat: no-repeat;
 }
-.menu{
+.menu {
   position: relative;
-  top:50px;
+  top: 50px;
   margin-bottom: 30px;
-
 }
-.menu2{
+.menu2 {
   position: relative;
-  bottom :30px;
-  
+  bottom: 30px;
 }
-.select{
-  margin-top:30px; 
+.select {
+  margin-top: 30px;
 }
-.submit{
- margin-top: 30px; 
-} 
-
+.submit {
+  margin-top: 30px;
+}
 .button_submit {
   position: relative;
   left: 250px;
@@ -123,16 +109,18 @@ input, select {
   padding-right: 20px;
   padding-left: 10px;
   position: relative;
-  background-color:rgb(41,127,184);
-  color:rgb(255,255,255);
+  background-color: rgb(41, 127, 184);
+  color: rgb(255, 255, 255);
   letter-spacing: 1px;
 }
-#uservalid{
+#uservalid {
   position: relative;
   bottom: 50px;
 }
-#emailvalid{
+#emailvalid {
   position: relative;
-  bottom:50px;
-
+  bottom: 50px;
+}
+.chat_form {
+  width: 400px;
 }
