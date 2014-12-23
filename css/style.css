@@ -115,12 +115,24 @@ input, select {
 }
 #uservalid {
   position: relative;
-  bottom: 50px;
+  bottom: 75px;
+
 }
 #emailvalid {
   position: relative;
-  bottom: 50px;
+  bottom: 75px;
+
 }
 .chat_form {
   width: 400px;
+}
+ul.chat_list {
+  list-style-type: none;
+}
+
+ul.chat_list li {
+    margin-bottom: 3px;
+}
+#form{float: left;
+   
 }

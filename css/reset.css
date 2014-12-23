@@ -64,3 +64,6 @@ a img {
 :focus {
   outline: 0;
 }
+#emailvalid{
+  color: "yellow";
+}

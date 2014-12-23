@@ -1,44 +1,46 @@
 <!DOCTYPE html >
 <html>
-  <head>
-    <title>Start_chat_page</title>
-    <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen, print, projection" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print, projection" />
-    <script type="text/javascript" src="js/string.js"></script>
-  </head>
-  <body>
-    <div id="header">
-      <div id="logo">
-      </div>
-      <div id="topnav">
-        <a href="#" class="active">Home</a>
-        <!--Use class="active" to show where user is-->
-        <a href="#">Chat</a>
-        <a href="#">Help</a>
-        <a href="#">About Us</a>
-      </div>
+<head>
+  <title>Start_chat_page</title>
+  <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen, print, projection" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print, projection" />
+  <script type="text/javascript" src="js/string.js"></script>
+</head>
+<body>
+  <div id="header">
+    <div id="logo">
     </div>
-    <p class="label">
+    <div id="topnav">
+      <a href="#" class="active">Home</a>
+      <!--Use class="active" to show where user is-->
+      <a href="#">Chat</a>
+      <a href="#">Help</a>
+      <a href="#">About Us</a>
+    </div>
+  </div>
+  <p class="label">
     To start communication,please,provide following data:
-    </p>
-    <form action="#" method="post" >
-      <div class="menu">
-        <input type="text" placeholder="username" id='username' name='username'/>
-        <span id="uservalid" style="display:none"></span>
-      </div>
-      <div class="menu">
-        <input type="text" placeholder="email" name="email" id="email"/>
-        <span id="emailvalid" style="display:none;"></span>
-        <div/>
-          <select class="select" name="department">
-            <option value="" selected="selected">Deparment</option>
-            <option value="user">user</option>
-            <option value="employee">employee</option>
-          </select>
-          <br/>
-          <input type="button" value="submit" class="submit" id="button"/>
-        </form>
-        <script type="text/javascript" src="js/userpass.js"></script>
-      </body>
-    </html>
+  </p>
+  <form action="#" method="post" id="form">
+    <div class="menu">
+      <input type="text" placeholder="username" id='username' name='username'/>
+      <span id="uservalid" style="display:none"></span>
+    </div>
+    <div class="menu">
+      <input type="text" placeholder="email" name="email" id="email"/>
+      <span id="emailvalid" style="display:none;"></span>
+      <div/>
+      <select class="select" name="department">
+        <option value="" selected="selected">Deparment</option>
+        <option value="user">user</option>
+        <option value="employee">employee</option>
+      </select>
+      <br/>
+      <input type="button" value="submit" class="submit" id="button"/>
+    </form>
+
+    <script type="text/javascript" src="js/validations.js"></script>
+    <script type="text/javascript" src="js/userpass.js"></script>
+  </body>
+  </html>

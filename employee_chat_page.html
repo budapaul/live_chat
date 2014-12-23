@@ -1,48 +1,49 @@
 <!DOCTYPE html >
 <html>
-  <head>
-    <title>Start_chat_page</title>
-    <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen, print, projection" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print, projection" />
-    <link rel="stylesheet" type="text/css" href="css/cssemployee.css" media="screen, print, projection" />
-    <script type="text/javascript" src="js/string.js"></script>
-    <script type="text/javascript" src="js/shared_chat.js"></script>
-  </head>
-  <body>
-    <div id="header">
-      <div id="logo">
-      </div>
-
-      <div id="topnav">
-        <a href="#" class="active">Home</a><!--Use class="active" to show where user is-->
-        <a href="#">Chat</a>
-        <a href="#">Help</a>
-        <a href="#">About Us</a>
-      </div>
+<head>
+  <title>Start_chat_page</title>
+  <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen, print, projection" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print, projection" />
+  <link rel="stylesheet" type="text/css" href="css/cssemployee.css" media="screen, print, projection" />
+  <script type="text/javascript" src="js/string.js"></script>
+  <script type="text/javascript" src="js/validations.js"></script>
+  <script type="text/javascript" src="js/shared_chat.js"></script>
+</head>
+<body>
+  <div id="header">
+    <div id="logo">
     </div>
-    <div class="section section-right">
-      <fieldset class="fieldset">
-        <legend class="legend" align="top">chat</legend>
-        <ul>
-          <li></li>
-          <li></li>
+
+    <div id="topnav">
+      <a href="#" class="active">Home</a><!--Use class="active" to show where user is-->
+      <a href="#">Chat</a>
+      <a href="#">Help</a>
+      <a href="#">About Us</a>
+    </div>
+  </div>
+  <div class="section section-right">
+    <fieldset class="fieldset">
+      <legend class="legend" align="top">chat</legend>
+      <ul>
+        <ul id="chat_list">
         </ul>
+      </ul>
 
-      </fieldset>
-      <form action="#" method="post" class="chat_form">
-        <span id="employee_chat_error" style="display:none;"></span>
-        <textarea class="mesaj" type="text" id="textarea" > </textarea>
-        <input type="submit" value="Send" class="button_submit " id="sendemployeed" />
-      </form>
-    </div>
-    <div class="section section-left">
-      <p class="p">You communicate with:</p>
-      <img src="images/barbat.jpg" class="employee_photo">
-      <p class="employee_name">Iepan Ionut</p>
-      <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top" class="mail">Send Mail</a>
-    </div>
+    </fieldset>
+    <form action="#" method="post" class="chat_form">
+      <span id="chat_error" style="display:none;"></span>
+      <textarea class="mesaj" type="text" id="textarea" > </textarea>
+      <input type="submit" value="Send" class="button_submit " id="sendchatpage" />
+    </form>
+  </div>
+  <div class="section section-left">
+    <p class="p">You communicate with:</p>
+    <img src="images/barbat.jpg" class="employee_photo">
+    <p class="employee_name">Iepan Ionut</p>
+    <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top" class="mail">Send Mail</a>
+  </div>
 
-    <script type="text/javascript" src="js/employeedchat.js" ></script>
-  </body>
+  <script type="text/javascript" src="js/chatpage.js" ></script>
+</body>
 </html>

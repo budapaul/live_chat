@@ -1,54 +1,57 @@
 <html>
-  <head>
-    <title>chat_page</title>
-    <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen, print, projection" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print, projection" />
-    <link rel="stylesheet" type="text/css" href="css/css_chat_page.css" media="screen, print, projection" />
-    <link rel="stylesheet" type="text/css" href="css/buttons.css" media="screen, print, projection" />
-    <script type="text/javascript" src="js/string.js"></script>
-    <script type="text/javascript" src="js/shared_chat.js"></script>
-  </head>
-  <body>
-    <div id="header">
-      <div id="logo">
-      </div>
-      <div id="topnav">
-        <a href="#" class="active">Home</a><!--Use class="active" to show where user is-->
-        <a href="#">Chat</a>
-        <a href="#">Help</a>
-        <a href="#">About Us</a>
-      </div>
+<head>
+  <title>chat_page</title>
+  <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen, print, projection" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen, print, projection" />
+  <link rel="stylesheet" type="text/css" href="css/css_chat_page.css" media="screen, print, projection" />
+  <link rel="stylesheet" type="text/css" href="css/buttons.css" media="screen, print, projection" />
+  <script type="text/javascript" src="js/string.js"></script>
+  <script type="text/javascript" src="js/validations.js"></script>
+  <script type="text/javascript" src="js/shared_chat.js"></script>
+</head>
+<body>
+  <div id="header">
+    <div id="logo">
     </div>
-    <div class="align-left">
-      <fieldset class="fieldset">
-        <legend class="chat">chat</legend>
-      </fieldset>
-      <form  action="#" method="post" class="chat_form">
-       <span id="user_chat_error" style="display:none;"></span>
-      <textarea placeholder="Your message here"rows="4" cols="25" id="textarea" class='textarea'> </textarea>
-      <div class="container">
-    <input type="submit" value="Send" class="button_submit " id="sendchatpage" />
-      </div>
-      </form>
+    <div id="topnav">
+      <a href="#" class="active">Home</a><!--Use class="active" to show where user is-->
+      <a href="#">Chat</a>
+      <a href="#">Help</a>
+      <a href="#">About Us</a>
     </div>
-    
-    <div class="align-right">
-      <div class="aligncenter">
-        <p><b><h2>Evaluate work of our employee</h2></b></p>
-        <br><p>We are interested in improving of our company</p>
-      </div>
-      <div class="section section-right">
-        <img src="images/femeie.jpg" class="user_photo">
-        <p class="paragraph">Lady Dee</p>
-      </div>
-      <div class="section_buttons">
-        <p>Comunnication was:</p>
-        <a href="#" class="left primary button">Pure</a>
-        <a href="#" class="middle button">Normal</a>
-        <a href="#" class="right  button">Great</a>
-      </div>
+  </div>
+  <div class="align-left">
+    <fieldset class="fieldset">
+      <legend class="chat">chat</legend>
+      <ul id="chat_list" class="chat_list">
+      </ul>
+    </fieldset>
+    <form  action="#" method="post" class="chat_form">
+     <span id="chat_error" style="display:none;"></span>
+     <textarea placeholder="Your message here"rows="4" cols="25" id="textarea" class='textarea'> </textarea>
+     <div class="container">
+      <input type="button" value="Send" class="button_submit " id="sendchatpage" />
     </div>
-    <script type="text/javascript" src="js/chatpage.js"></script>
-  </body>
+  </form>
+</div>
+
+<div class="align-right">
+  <div class="aligncenter">
+    <p><b><h2>Evaluate work of our employee</h2></b></p>
+    <br><p>We are interested in improving of our company</p>
+  </div>
+  <div class="section section-right">
+    <img src="images/femeie.jpg" class="user_photo">
+    <p class="paragraph">Lady Dee</p>
+  </div>
+  <div class="section_buttons">
+    <p>Comunnication was:</p>
+    <a href="#" class="left primary button">Pure</a>
+    <a href="#" class="middle button">Normal</a>
+    <a href="#" class="right  button">Great</a>
+  </div>
+</div>
+<script type="text/javascript" src="js/chatpage.js"></script>
+</body>
 </html>
