@@ -29,20 +29,23 @@ function Validations()
   }
   this.hide_error = function(id, message)
   {
-    span = document.getElementById(id);
-    span.style.display = "none";
+    span = $('#' + id);
+    span.css("display", "none");
   }
 
   this.show_error = function(id, message)
   {
-    span = document.getElementById(id);
+    span = $("#" + id);
     if (message.trim() != '')
     {
-      span.innerHTML = message;
+      span.html(message);
     }
-    span.style.background = "red";
-    span.style.display = "block";
-    span.style.width = "auto"
-    span.style.margin = "20px 0px 0px 0px"
+    span.css(
+    {
+      "background": "red",
+      "display": "block",
+      "width": "auto",
+      "margin": "20px 0px 0px 0px"
+    });
   }
 }
